@@ -14,8 +14,4 @@ class HogeTest(unittest.TestCase):
         fuga = Fuga()
         self.assertTrue(fuga.index())
 
-def suite():
-    suite = unittest.TestSuite()
-    suite.addTests(unittest.makeSuite(HogeTest))
-    return suite
 
